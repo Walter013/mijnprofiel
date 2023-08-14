@@ -89,9 +89,13 @@ input[type=text], input[type=email], textarea, button {
     border-radius: 5px;
     border-width: 2px;
 }
+button {
+    border-width: 3px;
+}
 
 button:hover {
-    background-color: #ECE5F0;
+    background-color:#FFE74C;
+    opacity: 0.6;
 }
 button:active {
     background-color:black;
